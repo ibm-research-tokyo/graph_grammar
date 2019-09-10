@@ -1,5 +1,5 @@
 networkx==2.3
-luigi==2.7.2
+luigi==2.8.0
 graphviz==0.8.2
 guacamol==0.5.0
 luigine==1.0
