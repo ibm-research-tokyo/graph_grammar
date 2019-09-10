@@ -1,0 +1,7 @@
+- `train_valid_test.txt`: file concatenating `train.txt`, `valid.txt`, and `test.txt`.
+  - 0:220011 corresponds to the training set
+  - 220011:220011+24445 corresponds to the validation set
+  - 220011+24445:220011+24445+5000 corresponds to the test set
+- `opt.valid.logP-SA`, `opt.test.logP-SA`
+  - molecules to be optimized within some constraints
+  - valid for validation, test for testing.
