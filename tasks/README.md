@@ -15,7 +15,7 @@ For local execution, see `Dockerfile` for the dependencies.
 Recommended to use nvidia-docker to run experiments, because we sometimes observed different experimental results for different CUDA versrions. 
 
 ```bash
-docker build -t molgrammar . --build-arg GITHUB_USER=[YOUR GITHUB USER ID] --build-arg GITHUB_TOKEN=[YOUR GITHUB TOKEN]
+docker build -t molgrammar .
 docker run --gpus all -v $PWD:/home/docker/tasks -t molgrammar python main.py CheckReconstructionRate --working-dir /home/docker/tasks/[WORKING DIR NAME] --use-gpu]
 ```
 
